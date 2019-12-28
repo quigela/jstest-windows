@@ -5,9 +5,9 @@ Unfortunately, it does not support axes 2 to 5 currently.
 
 ### Building
 #### Ubuntu
-1. sudo apt install mingw-w64
-2. make clean
-3. make
+1. ```sudo apt install mingw-w64```
+2. ```make clean```
+3. ```make```
 
 
 ### Usage
