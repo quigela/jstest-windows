@@ -1,20 +1,20 @@
-Description
-===========
+### Description
 
 This is an equivalent for windows of the tool jstest.
 Unfortunately, it does not support axes 2 to 5 currently.
 
-Usage
-=====
+### Building
+#### Ubuntu
+===
+`sudo apt install mingw-w64`
 
-Install jstest.exe to a directory.
-Launch a command prompt via:
-Windows+r, then enter "cmd".
-This will open a command line window.
-Then type "dir C:\install\folder"
-Where C:\install\folder is the folder where you saved the exe.
-This will change the working folder
-to the folder where you installed jstest.
-Plug your gamepad or joystick in.
-Then type "jstest.exe".
-This will display your joystick keys and axes status.
+
+### Usage
+1. Execute the built .exe
+
+#### Changing Polled Gamepad
+1. WIN+R
+2. `joy.cpl`
+3. Enter or OK
+4. Click `Advanced...`
+5. Change `Preferred Device` dropdown
