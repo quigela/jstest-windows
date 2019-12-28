@@ -6,7 +6,7 @@ Unfortunately, it does not support axes 2 to 5 currently.
 ### Building
 #### Ubuntu
 ===
-`sudo apt install mingw-w64`
+```sudo apt install mingw-w64```
 
 
 ### Usage
@@ -14,7 +14,7 @@ Unfortunately, it does not support axes 2 to 5 currently.
 
 #### Changing Polled Gamepad
 1. WIN+R
-2. `joy.cpl`
+2. ```joy.cpl```
 3. Enter or OK
-4. Click `Advanced...`
-5. Change `Preferred Device` dropdown
+4. Click ```Advanced...```
+5. Change ```Preferred Device``` dropdown
