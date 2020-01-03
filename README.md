@@ -14,6 +14,7 @@ Unfortunately, it does not support axes 2 to 5 currently.
 
 ### Usage
 1. Execute the built .exe
+1a. Currently, for the refresh feature (vs each poll on a new line) the text in the prompt window <b>must not</b> wrap around.
 
 #### Changing Polled Gamepad
 1. WIN+R
