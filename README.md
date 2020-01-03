@@ -3,6 +3,8 @@
 This is an equivalent for windows of the tool jstest.
 Unfortunately, it does not support axes 2 to 5 currently.
 
+<b> Forked from https://github.com/yazgoo/jstest-windows </b>
+
 ### Building
 #### Ubuntu
 1. ```sudo apt install mingw-w64```
