@@ -30,21 +30,19 @@ int main()
                 buttons[i] = button;
             }
         }
-        //if(update)
-        //{
-            fprintf(stdout, "Axes:", pji.dwButtons);
-            for(i = 0; i < 6; i++)
-            {
-                fprintf(stdout, "  %d: %5d", i, axes[i] + 32767);
-            }
-            fprintf(stdout, "  Buttons:  ", pji.dwButtonNumber);
-            for(i = 0; i < 13; i++)
-            {
-                fprintf(stdout, "%d:%s  ", i, buttons[i] ? "on ":"off");
-            }
-            printf("  Hat: %d", (pji.dwPOV/100));
-            fprintf(stdout, "\r");
-            fflush(stdout);
-        //}
+        fprintf(stdout, "Axes:", pji.dwButtons);
+        for(i = 0; i < 6; i++)
+        {
+            fprintf(stdout, "  %d: %5d", i, axes[i] + 32767);
+        }
+        fprintf(stdout, "  Buttons:  ", pji.dwButtonNumber);
+        for(i = 0; i < 13; i++)
+        {
+            fprintf(stdout, "%d:%s  ", i, buttons[i] ? "on ":"off");
+        }
+        printf("  Hat: %d", (pji.dwPOV/100));
+        fprintf(stdout, "\r");
+        fflush(stdout);
+    
     }
 }
